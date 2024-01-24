@@ -230,7 +230,7 @@ button:hover{
     </body>
     <script>
         $(".thalaBtn").click(function () {
-       // event.preventDefault();
+        event.preventDefault();
         var s = $("input").val();
         // console.log(s);
         let sum = 0;
@@ -269,6 +269,9 @@ button:hover{
         }
         
     });
-    
+
+    $('.thalaBtn2').click(function() {
+        location.reload(true);
+});
     </script>
 </html>
