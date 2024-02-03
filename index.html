@@ -267,7 +267,7 @@ button:hover{
         }else if(sum == '7' || s.length == 7 || s!=="abhijit" || s!=="Abhijit"){
             $(".videoHolder").html(
         '<video src="thalaSupermacy.mp4"  autoplay="autoplay"></video>');
-        }else{
+        }else if(sum != '7' || s.length != 7 || s!=="abhijit" || s!=="Abhijit"){
             $(".videoHolder").html(
         '<img src="not.jpeg">');
         }
